@@ -1,0 +1,16 @@
+{
+  "name": "serverless-slack-bot",
+  "version": "1.0.0",
+  "description": "A demonstration of how to implement a serverless slack bot using Amazon Web Services",
+  "main": "app.js",
+  "scripts": {
+    "test": "jasmine-node tests --verbose"
+  },
+  "author": "Andrew Carreiro",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.2.21",
+    "bluebird": "^3.0.6",
+    "lodash": "^3.10.1"
+  }
+}
